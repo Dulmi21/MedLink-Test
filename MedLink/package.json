@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "prettier": "^3.3.2",
+    "prettier-plugin-tailwindcss": "^0.6.5"
+  },
+  "dependencies": {
+    "@react-google-maps/api": "^2.19.3"
+  }
+}
