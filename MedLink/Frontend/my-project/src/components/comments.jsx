@@ -1,4 +1,4 @@
-import './review.css';
+import '../components/review.css';
 import userImage from '../assets/UserImage.jpg'
 function Comment(props){
 

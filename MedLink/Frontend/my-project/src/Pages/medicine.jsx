@@ -1,5 +1,5 @@
  
-import M from './M';
+import M from '../components/M';
 import React from 'react';
 function DisplayMedicinePage() {
     return (

@@ -1,8 +1,8 @@
  
 
- import SearchBar from './SearchBar.jsx';
-import Input from './input.jsx';
- import Item from './items.jsx';
+ import SearchBar from '../components/SearchBar.jsx';
+import Input from '../components/input.jsx';
+ import Item from '../components/items.jsx';
 
  function ScanResultsPage(){
 

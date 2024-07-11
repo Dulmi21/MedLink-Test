@@ -1,7 +1,7 @@
-import image1 from './ScanMachine.webp';
-import icon1 from './calendar.png';
-import icon2 from './clock.png';
-import icon3 from './place.png';
+import image1 from '../assets/ScanMachine.webp';
+import icon1 from '../assets/calendar.png';
+import icon2 from '../assets/clock.png';
+import icon3 from '../assets/place.png';
 import '../components/review.css';
 
 function Item(props){

@@ -1,6 +1,6 @@
-import Input from './input.jsx';
-import arrow from './right-arrow.png';
-import MyComponent from './Map.jsx';
+import Input from '../components/input.jsx';
+import arrow from '../assets/right-arrow.png';
+import MyComponent from '../components/Map.jsx';
  
 
 

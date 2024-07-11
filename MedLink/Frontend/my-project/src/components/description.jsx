@@ -1,4 +1,4 @@
-import './review.css';
+import '../components/review.css';
 
 function Description(props) {
     return (

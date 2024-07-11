@@ -1,10 +1,10 @@
-import Input from './input.jsx';
-import arrow from './right-arrow.png';
-import MyComponent from './Map.jsx';
+import Input from '../components/input.jsx';
+import arrow from '../assets/right-arrow.png';
+import MyComponent from '../components/Map.jsx';
  
 
 
-function TestPage(){
+function ScanPage(){
     return(
 
         <>
@@ -15,10 +15,10 @@ function TestPage(){
    </div>
 
   <div className=" h-auto  p-16 " style={{ backgroundColor: '#A3D9F3' }}>
-    <p className="text-3xl font-light">What  <span className="text-blue-900 font-bold mx-2">Test</span>   are you searching for?</p>
+    <p className="text-3xl font-light">What  <span className="text-blue-900 font-bold mx-2">Scans</span>   are you searching for?</p>
     <div >
       <form onSubmit={''}>
-      <div> <Input placeholder="Test Name"></Input> </div>
+      <div> <Input placeholder="Scan Type"></Input> </div>
       <div> <Input  placeholder="Select Location"></Input></div>
 
       <div className=""> <MyComponent /> </div> 
@@ -69,4 +69,4 @@ function TestPage(){
     );
 }
 
-export default TestPage;
+export default ScanPage;
